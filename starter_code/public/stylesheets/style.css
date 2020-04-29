@@ -1,0 +1,32 @@
+body {
+  padding: 50px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif; }
+
+.movies-container {
+  display: flex;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+}
+
+.movies-container article {
+  width: 33%;
+  margin-bottom: 100px;
+}
+
+.details-container {
+  display: flex;
+}
+
+.details-container div:first-child {
+  width: 20%;
+}
+
+.details-container div:nth-child(2) {
+  margin-left: 5%;
+}
+
+a {
+  color: #00B7FF; }
+
+
+/*# sourceMappingURL=style.css.map */
